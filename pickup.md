@@ -1,4 +1,20 @@
+## Description
 Looks for <pickup> elements in your story and creates clikcable items you can add to your "inventory" global object.
+
+To use this code in your story, copy the "Code" snippet to a new Passage titled "Pickup". To use it within a passage, create <pickup> elements like this:
+```
+<pickup
+	data-name="sandwhich"
+	data-description="Mmm, bologna!"
+	data-exclusive="You pick up the sandwhich, better not crush it!"
+/>
+```
+and make sure to run this script by invoking the code with:
+```
+<%= window.story.render("Pickup") %>
+```
+	
+## Code
 
 ```
 <div id="pickup-items"></div>
