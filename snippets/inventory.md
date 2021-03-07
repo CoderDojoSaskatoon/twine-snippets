@@ -1,12 +1,15 @@
 ## Description
+
 Adds an "Inventory" button to your passages which loops through items in your "intentory" global object, and prints their name and description.
 
-To use this code in your story, copy the "Code" snippet to a new Passage titled "Inventory" and make sure to run this script by invoking the code with:
+To use this code in your story, copy the "Code" snippet to a new Passage titled "Inventory" and make sure to run this script by invoking the code within your passage using:
+
 ```
 <%= window.story.render("Inventory") %>
 ```
-	
+
 ## Code
+
 ```
 <button id="inventory-button">Inventory</button>
 
@@ -64,11 +67,11 @@ To use this code in your story, copy the "Code" snippet to a new Passage titled 
 		if (!s.inventory) {
 			s.inventory = {};
 		}
-		
+
 		// When the Inventory button is clicked
 		$("#inventory-button").click(function() {
 			$("#inventory-list").children().remove();
-			
+
 			// Loop over the inventory object and add the items to our modal
 			$.each(s.inventory, function(itemName, itemProperties) {
 				if (itemProperties.active) {
@@ -77,10 +80,10 @@ To use this code in your story, copy the "Code" snippet to a new Passage titled 
 					)
 				}
 			});
-			
+
 			$("#inventory-modal").show();
 		});
-		
+
 		// When the "X" button is clicked
 		$("#modal-close").click(function() {
 			$("#inventory-modal").hide();
