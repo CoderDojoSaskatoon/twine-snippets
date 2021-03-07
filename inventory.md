@@ -1,3 +1,12 @@
+## Description
+Adds an "Inventory" button to your passages which loops through items in your "intentory" global object, and prints their name and description.
+
+To use this code in your story, copy the "Code" snippet to a new Passage titled "Inventory" and make sure to run this script by invoking the code with:
+```
+<%= window.story.render("Inventory") %>
+```
+	
+## Code
 ```
 <button id="inventory-button">Inventory</button>
 
