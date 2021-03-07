@@ -9,7 +9,10 @@ To use this code in your story, copy the "Code" snippet to a new Passage titled 
 	data-exclusive="You pick up the sandwhich, better not crush it!"
 />
 ```
-and make sure to run this script by invoking the code with:
+
+The `data-name` and `data-description` are used in the inventory modal. The `data-exclusive` tag ensures that you can only select one out of a choice of items and then displays that pickup text.
+
+Make sure to run this script by invoking the code with:
 ```
 <%= window.story.render("Pickup") %>
 ```
