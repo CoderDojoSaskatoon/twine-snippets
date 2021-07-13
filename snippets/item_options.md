@@ -1,6 +1,6 @@
 ## Description
 
-Looks for <item_option> elements in your story and creates clikcable .
+Looks for <item_option> elements in your story and creates clikcable links to interact with your story.
 
 To use this code in your story, copy the "Code" snippet to a new Passage titled "Item Options". To use it within a passage, create <item_option> elements like this:
 
