@@ -5,7 +5,7 @@ Looks for <item_option> elements in your story and creates clikcable .
 To use this code in your story, copy the "Code" snippet to a new Passage titled "Item Options". To use it within a passage, create <item_option> elements like this:
 
 ```
-<pickup
+<item_option
 	data-item="sandwhich"
 	data-text="You give the elf your sandwhich"
 />
