@@ -11,6 +11,8 @@ See the ["Getting Started"](./getting_started.md) guide for setting up your Twin
 - [Pickup](/snippets/pickup.md) Add items in your Twine game that you can pick up.
 - [Inventory](/snippets/inventory.md) Add an "Inventory" button to view the items you've picked up.
 - [Item Options](/snippets/item_options.md) Add story options available if you have certain items in your inventory.
+- [Sidebar](/snippets/sidebar.md) Add a sidebar to the right side of your game page.
+- [Progress Bar](/snippets/progress_bar.md) Add a progress bar that fills in as a game state value increases.
 
 ## Examples
 
