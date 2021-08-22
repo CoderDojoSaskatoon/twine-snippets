@@ -1,3 +1,15 @@
+## Description
+Replaces a `<progressbar>` tag with a div displaying a percentage value from 0 - 100%.
+
+To use, add a snippet named "Progress Bar" and paste the code into it. Add a `<progressbar` tag with the appropriate `data-type` value and add the following render tag:
+```
+<%= window.story.render("Progress Bar") %>
+```
+
+See [sidebar](/snippets/sidebar.md) for examples.
+
+## Code
+
 ```
 <%
 	$(function() {
