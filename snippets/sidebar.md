@@ -1,6 +1,6 @@
 ## Description
 
-Adds a right-aligned sidebar to your passages. This side bar contains three [progress bars](/progess_bar.md)
+Adds a right-aligned sidebar to your passages. This side bar contains three [progress bars](/snippets//progess_bar.md)
 
 To use this code in your story, copy the "Code" snippet to a new Passage titled "Sidebar" and make sure to run this script by invoking the code within your passage using:
 
